@@ -7,9 +7,6 @@ Description :
       2 : Input statistical conditions
       3 : Output statistical report
       
-
-Class Description :
-
   Classes can grouped into 4 parts :
   
       1 : Interarrival time/Service time generator
