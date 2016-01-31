@@ -1,6 +1,6 @@
 
 #Discrete Event Simulator
-Discrete event systems such as a manufacturing system can be modeled with an event graph.
+Discrete event systems (e.g. manufacturing system) can be modeled with an event graph.
 
 Key event graph models are implemented through this project. 
 
@@ -17,11 +17,11 @@ Classes can grouped into 4 parts :
   
         1 : Individual Event-based Model 
         :(After "Fetch" cycle retrieves next event from FutureEventList, the  "Execution" cycle begins.) 
-             - EventBasedModel // base class for individual models
-             - SingleServer
-             - FlexibleMultiserver
-             - LimitedWaitingSpace
-             - BatchedService 
+             - EventBasedModel            // Base class for individual models below
+             - SingleServer                 
+             - FlexibleMultiserver          
+             - LimitedWaitingSpace         
+             - BatchedService               
              - TandemLine
    
          2 : FutureEventList
