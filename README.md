@@ -39,19 +39,19 @@ Classes can grouped into 4 parts :
                  - FutureEvent
   
          3 : Interarrival time/Service time generator
-             description : 
+              description : 
                  - Generates random numbers needed in "Execution" cycle.
             
-             classes :
+              classes :
                  - InterarrivalGenerator 
                  - ServiceGenerator
 
          4 : Statistical Accumulators
-             description :
+              description :
                  - Event type is passed by individual model during "Execution" cycle. 
                    When the simulation is terminated, EntityManager returns statistical informations.
                    
-             classes :
+              classes :
                  - EntityManager
                  - Entity
 
