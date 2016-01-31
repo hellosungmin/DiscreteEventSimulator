@@ -8,7 +8,7 @@
 using namespace std;
 
 
-
+// Used in InterarrivalGenerator and ServiceGenerator
 template < typename T >
 class Array
 {
