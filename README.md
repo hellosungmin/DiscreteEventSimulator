@@ -22,7 +22,8 @@ Classes can grouped into 4 parts :
   
         1 : Individual Event-based Model
               description : 
-                 - After "Fetch" cycle retrieves next event from FutureEventList, the  "Execution" cycle begins.
+                 - After "Fetch" cycle retrieves next event from FutureEventList, 
+                   the  "Execution" cycle begins.
                
               classes : 
                  - EventBasedModel            // Base class for individual models below
@@ -47,7 +48,6 @@ Classes can grouped into 4 parts :
 
          4 : Statistical Accumulators
              description :
-             
                  - Event type is passed by individual model during "Execution" cycle. 
                    When the simulation is terminated, EntityManager returns statistical informations.
                    
