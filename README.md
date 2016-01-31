@@ -20,7 +20,7 @@ Users can:
 ## Class diagram
 Classes can grouped into 4 parts :
   
-        ### 1 : Individual Event-based Model
+       1 : Individual Event-based Model
               description : 
                  - After "Fetch" cycle retrieves next event from FutureEventList, 
                    the  "Execution" cycle begins.
@@ -33,12 +33,12 @@ Classes can grouped into 4 parts :
                  - BatchedService               
                  - TandemLine
    
-         ### 2 : FutureEventList
+       2 : FutureEventList
               classes : 
                  - FutureEvetList
                  - FutureEvent
   
-         ### 3 : Interarrival time/Service time generator
+       3 : Interarrival time/Service time generator
               description : 
                  - Generates random numbers needed in "Execution" cycle.
             
@@ -46,7 +46,7 @@ Classes can grouped into 4 parts :
                  - InterarrivalGenerator 
                  - ServiceGenerator
 
-         ### 4 : Statistical Accumulators
+       4 : Statistical Accumulators
               description :
                  - Event type is passed by individual model during "Execution" cycle. 
                    When the simulation is terminated, EntityManager returns statistical informations.
