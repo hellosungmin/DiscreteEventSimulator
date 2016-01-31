@@ -21,30 +21,37 @@ Users can:
 Classes can grouped into 4 parts :
   
         1 : Individual Event-based Model
-            After "Fetch" cycle retrieves next event from FutureEventList, the  "Execution" cycle begins.
-        
-             - EventBasedModel            // Base class for individual models below
-             - SingleServer                 
-             - FlexibleMultiserver          
-             - LimitedWaitingSpace         
-             - BatchedService               
-             - TandemLine
+              description : 
+                 - After "Fetch" cycle retrieves next event from FutureEventList, the  "Execution" cycle begins.
+               
+              classes : 
+                 - EventBasedModel            // Base class for individual models below
+                 - SingleServer                 
+                 - FlexibleMultiserver          
+                 - LimitedWaitingSpace         
+                 - BatchedService               
+                 - TandemLine
    
          2 : FutureEventList
-         
-            - FutureEvetList
-            - FutureEvent
+              classes : 
+                 - FutureEvetList
+                 - FutureEvent
   
          3 : Interarrival time/Service time generator
-             Generates random numbers needed in "Execution" cycle.
-         
-             - InterarrivalGenerator 
-             - ServiceGenerator
+             description : 
+                 - Generates random numbers needed in "Execution" cycle.
+            
+             classes :
+                 - InterarrivalGenerator 
+                 - ServiceGenerator
 
          4 : Statistical Accumulators
-              Event type is passed by individual model during "Execution" cycle. 
-              When the simulation is terminated, EntityManager returns statistical informations.
-         
-             - EntityManager
-             - Entity
+             description :
+             
+                 - Event type is passed by individual model during "Execution" cycle. 
+                   When the simulation is terminated, EntityManager returns statistical informations.
+                   
+             classes :
+                 - EntityManager
+                 - Entity
 
