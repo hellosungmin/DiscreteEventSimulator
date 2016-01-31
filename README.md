@@ -1,12 +1,17 @@
 
 #Discrete Event Simulator
 Discrete event systems such as a manufacturing system can be modeled with an event graph.
-Key event graph models are implemented through this project.  
+
+Key event graph models are implemented through this project. 
+
+
 ## Usage
 Users can:
      1 : Select an event graph model
      2 : Input statistical conditions
-     3 : Output statistical report## Contributing
+     3 : Output statistical report
+     
+     
 ## Class diagram
 Classes can grouped into 4 parts :
   
